@@ -161,7 +161,7 @@ def run():
 	#lr=1e-4
 
 	# Download pretrained vgg model
-	helper.maybe_download_pretrained_vgg(pretrain_model)
+	# helper.maybe_download_pretrained_vgg(pretrain_model)
 
 	# OPTIONAL: Train and Inference on the cityscapes dataset instead of the Kitti dataset.
 	# You'll need a GPU with at least 10 teraFLOPS to train on.
