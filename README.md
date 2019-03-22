@@ -2,6 +2,15 @@
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
+### Submission
+1. main.py: define main function of this project
+2. helper.py: I didn't change anything inside _'helper.py'_
+3. project_test.py: I didn't change anything inside _'project_test.py'_
+4. Folder _'runs/1553171629.1957672'_ : sample of test images
+5. VGG pre-trained model: I comment the line(164) of _'main.py'_, because I have VGG pre-trained model in my conputer. If you don't have the pre-trained model, please uncomment the line(164) before running the main.py.
+6. Dataset: Download the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).  Extract the dataset in the `data` folder.  This will create the folder `data_road` with all the training a test images.
+
+
 ### Setup
 ##### GPU
 `main.py` will check to make sure you are using GPU - if you don't have a GPU on your system, you can use AWS or another cloud computing platform.
